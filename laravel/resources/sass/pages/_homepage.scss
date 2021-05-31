@@ -1,0 +1,21 @@
+section#employees {
+
+    .container {
+
+        @include flex(column, center, center);
+        @include container(80%);
+
+        #employees-list {
+
+            list-style-type: none;
+
+            .employee {
+
+                list-style-type: none;
+                margin: 20px 0;
+            }
+        }
+
+
+    }
+}
