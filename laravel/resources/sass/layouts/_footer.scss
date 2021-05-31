@@ -1,0 +1,7 @@
+footer {
+
+    @include flex(row, center, center);
+    background-color: $venusaur-green;
+    color: $threepwood-white;
+    height: 80px;
+}

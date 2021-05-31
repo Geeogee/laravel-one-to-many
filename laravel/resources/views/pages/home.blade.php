@@ -32,10 +32,15 @@
                                 </li>
                                 @foreach ($employee -> task as $task)
                                     <li>
-                                        Task title: {{ $task -> title }}
+                                        <strong>
+                                            Task title:
+                                        </strong> {{ $task -> title }}
                                     </li>
                                     <li>
-                                       Task description: {{ $task -> description }}
+                                       <strong>
+                                           Task description:
+                                       </strong>
+                                        {{ $task -> description }}
                                     </li>
                                 @endforeach
                             </ul>
